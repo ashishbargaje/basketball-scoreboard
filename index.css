@@ -1,0 +1,79 @@
+body {
+    margin: 0;
+    background: #9CA3AF;
+    font-family: "Oxanium", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-style: normal;
+}
+
+.container {
+    color: #ffffff;
+    text-shadow: 5px -5px 0 black;
+    font-size: xx-large;
+    width: 675px;
+    height: 385px;
+    display: flex;
+    justify-content: space-around;
+    background: #1B244A;
+    margin: 170px auto 30px auto;
+    border-radius: 10px;
+    border: 10px solid #ffffff;
+}
+
+h3{
+    margin: 0;
+}
+
+.points-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h1{
+    background: #080001;
+    text-align: center;
+    font-family: 'Cursed Timer ULiL', sans-serif;
+    font-weight: 400;
+    font-size: 100px;
+    padding-top: 20px;
+    color: #F94F6D;
+    margin: 0;
+    width: 155px;
+    height: 120px;
+}
+
+button{
+    color: #9AABD8;
+    border-radius: 5px;
+    background: #1B244A;
+    border: 0.5px solid #9AABD8;
+    padding: 5px;
+    margin: 0;
+}
+
+#new-game{
+    text-align: center;
+    width: 250px;
+    height: 70px;
+    margin-left: 840px;
+    font-family: "Oxanium", sans-serif;
+    font-size: 35px;
+    color: #ffffff;
+    text-shadow: 5px -5px 0 black;
+    border-radius: 5px;
+    border: 5px solid #ffffff;
+}
+
+#leader{
+    text-align: center;
+    font-family: "Oxanium", sans-serif;
+    font-weight: 800;
+    font-size: 35px;
+    color: #ffffff;
+    background: none;
+    border: none;
+    display: inline-block;
+}
