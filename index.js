@@ -48,10 +48,10 @@ function newGame(){
 
 function leader(){
     if(homePointsCount > guestPointsCount){
-        document.getElementById("leader").textContent = "LEADER is Home"
+        document.getElementById("leader").textContent = "LEADER is TEAM 1"
     }
     else if(homePointsCount < guestPointsCount) {
-        document.getElementById("leader").textContent = "LEADER is Guest"
+        document.getElementById("leader").textContent = "LEADER is TEAM 2"
     }
     else{
         document.getElementById("leader").textContent = "LEADER is None"
