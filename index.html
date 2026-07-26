@@ -13,28 +13,31 @@
 </head>
 
 <body>
-    <div class="container">
-        <div class="points-section">
-            <h3>TEAM 1</h3>
+    <main class="container">
+        <section class="points-section">
+            <label for="home-points">TEAM 1</label>
             <h1 id="home-points">0</h1>
-            <div>
-                <button onclick="onePointHome()">+1</button>
-                <button onclick="twoPointsHome()">+2</button>
-                <button onclick="threePointsHome()">+3</button>
-            </div>
-        </div>
-        <div class="points-section">
-            <h3>TEAM 2</h3>
+            <ul>
+                <li><button onclick="onePointHome()">+1</button></li>
+                <li><button onclick="twoPointsHome()">+2</button></li>
+                <li><button onclick="threePointsHome()">+3</button></li>
+            </ul>
+        </section>
+        <section class="points-section">
+            <label for="home-points">TEAM 2</label>
             <h1 id="guest-points">0</h1>
-            <div>
-                <button onclick="onePointGuest()">+1</button>
-                <button onclick="twoPointsGuest()">+2</button>
-                <button onclick="threePointsGuest()">+3</button>
-            </div>
-        </div>
+            <ul>
+                <li><button onclick="onePointGuest()">+1</button></li>
+                <li><button onclick="twoPointsGuest()">+2</button></li>
+                <li><button onclick="threePointsGuest()">+3</button></li>
+            </ul>
+        </section>
         <h1 id="leader">LEADER is </h1>
-    </div>
-    <button id="new-game" onclick="newGame()">New Game</button>
+    </main>
+    <footer>
+        <button id="new-game" onclick="newGame()">New Game</button>
+    </footer>
+    
     <script src="index.js"></script>
 </body>
 

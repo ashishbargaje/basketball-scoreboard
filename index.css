@@ -45,6 +45,15 @@ h1{
     height: 120px;
 }
 
+ul {
+    list-style: none;
+    display: flex;
+}
+
+li {
+    margin: 0 13px;
+}
+
 button{
     color: #9AABD8;
     border-radius: 5px;
